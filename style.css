@@ -71,3 +71,27 @@ justify-content: space-around;
 .row{
  padding:2%;
 }
+
+.Contact-Us {
+ background-image: url(backgrounds/c_image.jpg);
+ background-size:cover;
+ display: cover;
+ padding: 10%;
+}
+form #contact{
+ background-color: rgba(0, 0, 0, 0);
+}
+
+input[type=text] {
+ background:transparent;
+ color: white;
+}
+textarea[type=text] {
+ background:transparent;
+ color: white;
+}
+
+.submit{
+ position:absolute;
+ padding-left: 25%;
+}
