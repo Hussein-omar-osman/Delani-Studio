@@ -95,3 +95,11 @@ textarea[type=text] {
  position:absolute;
  padding-left: 25%;
 }
+
+.Footer {
+ color: black;
+ justify-content: center;
+ text-align: center;
+ font-size: x-small;
+ font-family: 'Amaranth', sans-serif;
+}
