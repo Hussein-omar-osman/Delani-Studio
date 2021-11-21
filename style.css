@@ -41,3 +41,33 @@ h4{
  font-family: 'Yantramanav', sans-serif;
  height: 19rem;
 }
+
+.hide{
+ display:none;
+}
+
+.Hover {
+ opacity:0;
+ background-color: rgba(255, 255, 255, 0.623);
+ position: absolute;
+ top:25%;
+ bottom:25%;
+ left:25%;
+ right:25%; 
+}
+
+.whatWeDo{
+ margin-left: 15rem;
+}
+.pot {
+justify-content: space-around;
+}
+
+.custom-info-on-portfolio-images {
+ height: 280px;
+ max-width: 280px;
+ padding:2px;
+}
+.row{
+ padding:2%;
+}
