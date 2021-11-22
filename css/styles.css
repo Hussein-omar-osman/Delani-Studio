@@ -54,6 +54,8 @@ h4{
   bottom:25%;
   left:25%;
   right:25%; 
+  border-radius: 15px;
+  padding: 15px;
 }
 
 .whatWeDo{
@@ -101,4 +103,15 @@ textarea[type=text] {
   text-align: center;
   font-size: x-small;
   font-family: 'Amaranth', sans-serif;
+}
+
+.social img {
+  border-radius: 50%;
+  transition: 0.2s ease-out;
+}
+.social img:hover {
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  margin: -3px;
+  padding: 3px;
+  background: yellowgreen;
 }
