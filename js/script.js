@@ -16,16 +16,16 @@ $(document).ready(function() {
  })
 
    //Insert white box upo hover
-   $(".Hover").hover(function(){
+  $(".Hover").hover(function(){
     $(this).animate({opacity:'1'});
   },
   function(){
     $(this).animate({opacity:'0'});
   })
 $('.submit').click(function () {
-        var Name = $('#mce-FNAME').val();
-        var Email = $('#mce-EMAIL').val();
-        var Message = $('#mce-MESSAGE');
+        var Name = $('#user-name').val();
+        var Email = $('#user-email').val();
+        var Message = $('#user-comment');
         var key ='c8fbd9a0cf3958e02be2822e55cfbfc5-us4';
         if (Name == '' || Email == '' || Message == '') {
             alert('Please make sure you have filled in the form correctly!');

@@ -92,9 +92,12 @@ textarea[type=text] {
   color: white;
 }
 
-.submit{
-  position:absolute;
-  padding-left: 25%;
+.button{
+  /* position:absolute; */
+  padding: 10px;
+  background-color: yellowgreen;
+  border-radius: 25px;
+  margin-left: 50px;
 }
 
 .Footer {
